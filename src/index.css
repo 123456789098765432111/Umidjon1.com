@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+  width: 0;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.Component_Container{
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #fff;
+  
+}
+.Component_Container1{
+    max-width: 1700px;
+  margin: 0 auto;
+  color: #fff;
+}
+.Component_Container2{
+  max-width: 1400px;
+  margin: 0 auto;
+  color: #fff;
+}
+@media screen and (max-width:480px) {
+    .Component_Container{
+      max-width: 480px;
+    }
+
+
+}
+@media screen and (max-width:768px) {
+    .Component_Container{
+      max-width: 480px;
+    }
+}
+@media screen and (max-width:1500px) {
+   .embla__button46{
+      right: 20px !important;
+    }
+    .embla__button45{
+      left: 20px !important;
+    }
+}
+/* header header2 navbar */
+@media screen and (max-width:1279px) {
+    .Component_Container{
+      max-width: 100% !important;
+    }
+    .embla__button46{
+      right: 20px !important;
+    }
+    .embla__button45{
+      left: 20px !important;
+    }
+}
+@media screen and (max-width:414px) {
+  .Footer_header img {
+    width: 0px !important;
+    height: 0px !important;
+  }
+}
+@media screen and (max-width:412px) {
+  .Header1{
+    display: none;
+  }
+  .Footer_header input{
+    width: 100% !important;
+    /* width: 100% !important; */
+  }
+  .sec3_img1 input{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width:1000px) {
+  .Section_page2_ {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .box_page_filter_2{
+    display: flex;
+    justify-content: center;
+  }
+  .btn_filter{
+    margin: 0 auto;
+  }
+  .TAble_box{
+    width: 100% !important;
+    margin-top: 0 !important;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+}
+@media screen and (max-width:737px) {
+  .pagination{
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  .Page_img1{
+    margin: 0 auto;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .Page_box{
+    width: 100% !important;
+  }
+  .Page_box1{
+    width: 100% !important;
+  }
+  .Page_box2{
+    width: 100% !important;
+  }
+  .Page_box3{
+    width: 100% !important;
+  }
+}

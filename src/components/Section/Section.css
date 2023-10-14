@@ -1,0 +1,31 @@
+.box1 {
+  width: 100%;
+  height: 71px;
+  flex-shrink: 0;
+  background: #000;
+}
+
+@media (max-width: 480px) {
+  /* For small screens, make the images smaller and reduce the margin */
+  .logo-img {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+  }
+}
+@media (min-width: 481px) and (max-width: 890px) {
+  /* For medium screens, make the images slightly smaller and reduce the margin */
+  .logo-img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+}
+@media (min-width: 891px) and (max-width: 1274px) {
+  /* For large screens, keep the images as they are */
+  .logo-img {
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+  }
+}/*# sourceMappingURL=Section.css.map */

@@ -1,0 +1,122 @@
+.Footer_Img{
+  margin-top: 100px;
+  width: 100%;
+  background-image: url('./img/Group 55.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Footer_header{
+  display: flex;
+  padding-top: 200px;
+  width:100%;
+  align-items: center;
+  justify-content: space-between;
+  img{
+    color: #fff;
+    width: 350px;
+  height: 111px;
+  flex-shrink: 0;
+  }
+   
+    input{
+      width: 401px;
+      height: 50px;
+      flex-shrink: 0;
+    }
+    .svg1{
+      position: absolute;
+      left: 5px;
+      top: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      span{
+        color: #222;
+        color: var(--Black, #000);
+        font-family: Grtsk Peta;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px; /* 178.571% */
+        letter-spacing: -0.28px;
+      }
+  
+    }
+    .svg2{
+      position: absolute;
+      right: 5px;
+      top: 15px;
+    }
+  }
+.Footer_contact{
+  h4{
+    color: var(--f-2-f-2-f-2, #fff);
+    font-family: Grtsk Peta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  p{
+    width: 168px;
+    color: var(--bdbdbd, #BDBDBD);
+    font-family: Grtsk Peta;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+  }
+
+}
+
+.Footer_ul{
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-left: 0 !important;
+    li{
+      color: var(--bdbdbd, #BDBDBD);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+}
+.p_text{
+  color: var(--bdbdbd, #BDBDBD);
+text-align: right;
+font-family: Grtsk Peta;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+@media screen and (max-width:1500px) {
+  .Footer_Img{
+    width: 100% !important;
+
+  }
+  .Footer_header{
+    display: flex !important;
+    gap: 20px;
+    flex-direction: column !important;
+    .Footer_header_img{
+      max-width: 100% !important;
+    }
+  }
+  .Footer_header_ul{
+    max-width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding: 10px !important;
+  }
+  .Footer_header_icon{
+    max-width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    padding: 10px !important;
+
+  }
+}

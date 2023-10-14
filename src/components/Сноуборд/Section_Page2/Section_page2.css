@@ -1,0 +1,87 @@
+.Section_page2_filter {
+  display: flex;
+  width: 321px;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--Light-Grey, #F9F9F9);
+  color: #222 !important;
+}
+.Section_page2_filter span {
+  color: #000;
+  /* Body 4 Capital - 12 - medium */
+  font-family: Grtsk Peta;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+}
+
+.btn_filter {
+  all: unset;
+}
+
+.Section_page2_ {
+  color: #222 !important;
+}
+
+table {
+  padding: 0 !important;
+}
+
+.Page_new_box {
+  width: 321px;
+  flex-shrink: 0;
+}
+.Page_new_box .img_box {
+  width: 320px;
+  height: 370px;
+  flex-shrink: 0;
+}
+
+.map_text h3 {
+  color: #000;
+  /* H3 - Capital - 16 - medium */
+  font-family: Grtsk Peta;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 156.25% */
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+}
+.map_text p {
+  color: var(--Dark-Grey, #828B8D);
+  /* Body 2 - 14 medium */
+  font-family: Grtsk Peta;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 178.571% */
+  letter-spacing: -0.28px;
+}
+.map_text h4 {
+  color: var(--Black, #000);
+  /* cost Capital - 18 - medium */
+  font-family: Grtsk Peta;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+}
+
+.box_page_filter_2 p {
+  color: #000;
+  margin-top: 7px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}/*# sourceMappingURL=Section_page2.css.map */

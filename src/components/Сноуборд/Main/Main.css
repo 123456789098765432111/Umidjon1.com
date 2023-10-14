@@ -1,0 +1,31 @@
+.Main_Page2 {
+  width: 100%;
+  background: #000;
+}
+.Main_Page2 a {
+  text-decoration: none;
+  color: #fff;
+}
+.Main_Page2 .Main_page2_box {
+  margin-top: 25px;
+}
+.Main_Page2 .Main_page2_box h4 {
+  color: #FFF;
+  font-family: Grtsk Peta;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 1459px) {
+  .Main_Page2 {
+    padding: 10px;
+    max-width: 100% !important;
+  }
+  .main_page_box_flex {
+    justify-content: center !important;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=Main.css.map */

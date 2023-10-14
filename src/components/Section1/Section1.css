@@ -1,0 +1,113 @@
+.box2 {
+  background-image: url("./Section_Box_Img/Rectangle 65.svg");
+  width: 50%;
+  background-repeat: no-repeat;
+  height: 269px;
+  flex-shrink: 0;
+}
+
+.boxlar {
+  display: flex;
+  gap: 33px;
+}
+
+.box3 {
+  background-image: url("./Section_Box_Img/Rectangle 58.svg");
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 269px;
+  flex-shrink: 0;
+}
+
+.btnlar {
+  position: relative;
+  display: flex;
+}
+
+.btn_2 {
+  position: absolute;
+  top: -16px;
+}
+
+.btn_3 {
+  position: absolute;
+  right: 0;
+  top: -16px;
+}
+
+.btn1 {
+  width: 667px;
+  border: none;
+  height: 71px;
+  flex-shrink: 0;
+  background: #000;
+  color: #fff;
+  color: #FFF;
+  text-align: center;
+  font-family: Grtsk Peta;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* Media queries for different screen sizes */
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .boxlar {
+    display: flex;
+    flex-direction: column;
+  }
+  .box2 {
+    width: 100%;
+  }
+  .box3 {
+    width: 100%;
+  }
+  .btnlar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn_2 {
+    position: static;
+    margin-bottom: 16px;
+  }
+  .btn_3 {
+    position: static;
+  }
+}
+@media (max-width: 1414px) {
+  .boxlar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+  }
+  .btnlar {
+    display: none;
+  }
+}
+/* For screens between 480px and 890px */
+@media (min-width: 480px) and (max-width: 890px) {
+  .box2 {
+    width: 70%;
+  }
+  .box3 {
+    width: 70%;
+  }
+  .boxlar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* For screens between 890px and 1274px */
+@media (min-width: 890px) and (max-width: 1274px) {
+  .box2 {
+    width: 60%;
+  }
+  .box3 {
+    width: 60%;
+  }
+}/*# sourceMappingURL=Section1.css.map */

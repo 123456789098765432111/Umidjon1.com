@@ -1,0 +1,42 @@
+.Page_img1{
+    .Page_box{
+      position: relative;
+    }
+    .Page_box1{
+      position: relative;
+    }
+    .Page_box2{
+      position: relative;
+    }
+    .Page_box3{
+      position: relative;
+    }
+    .Page_box_p{
+      position: absolute;
+      top: 30px;
+      left: 80px;
+    }
+    .Page_box_p1{
+      position: absolute;
+      top: 30px;
+      left: 80px;
+    }
+    .Page_box_p2{
+      position: absolute;
+      top: 30px;
+      left: 80px;
+    }
+    .Page_box_p3{
+      position: absolute;
+      top: 30px;
+      left: 80px;
+    }
+}
+@media screen and (max-width:1500px) {
+    .Page_img1{
+      display: flex !important;
+      justify-content: center !important;
+      gap: 20px;
+      flex-wrap: wrap !important;
+    }
+}

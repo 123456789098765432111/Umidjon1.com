@@ -1,0 +1,7 @@
+export {default as Header} from "./Header/Header"
+export {default as Header2} from "./Header2/Header2"
+export {default as Navbar} from "./Navbar/Navbar.jsx"
+export {default as Section} from "./Section/Section.jsx"
+export {default as Section1} from "./Section1/Section1.jsx"
+export {default as Container_Images} from "./Container_Images/Container_Images.jsx"
+export {default as Footer} from "./Footer/Footer.jsx"
